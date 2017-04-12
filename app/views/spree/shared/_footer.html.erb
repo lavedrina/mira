@@ -1,0 +1,37 @@
+<!--<footer id="footer" class="sixteen columns" data-hook>-->
+  <!--<div id="footer-left" class="columns alpha eight" data-hook>-->
+    <!--<p><%= Spree.t :powered_by  %> <%= link_to 'Solidus', 'http://solidus.io/' %></p>-->
+  <!--</div>-->
+  <!--<div id="footer-right" class="columns omega eight" data-hook></div>-->
+<!--</footer>-->
+
+<footer id="footer" class="ui vertical footer segment">
+  <div class="ui center aligned container">
+    <div class="ui stackable divided grid">
+      <div class="sixteen wide column">
+
+        <a href="https://www.facebook.com/liliampelamadagascar/" class="ui facebook button icon">
+          <i class="facebook icon"></i>
+        </a>
+        <a href="https://twitter.com/liliampela" class="ui twitter button icon">
+          <i class="twitter icon"></i>
+        </a>
+        <a href="http://www.imgrum.org/user/liliampela/2084319006" class="ui instagram button icon">
+          <i class="instagram icon"></i>
+        </a>
+        <a class="ui instagram button icon" href="<%= spree.home_contact_path %>">
+          <i class="mail icon"></i>
+        </a>
+
+      </div>
+    </div>
+    <div class="ui section divider stickyDivider"></div>
+  <!--  <%= image_tag 'lili_logo.jpg', :class => 'ui centered mini image' %> -->
+    <div class="ui horizontal small divided link list">
+      <a class="item" href="<%= spree.home_contact_path %>">Contactez Nous</a>
+      <a class="item" href="#">Termes and Conditions</a>
+      <a class="item" href="#">Protection des Données</a>
+      <a href="https://www.linkedin.com/in/dorian-gaillot-5892956b/" class="item">Webdesign</a>
+    </div>
+  </div>
+</footer>

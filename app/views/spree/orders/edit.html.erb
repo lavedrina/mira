@@ -1,0 +1,65 @@
+<% @body_id = 'cart' %>
+<div data-hook="cart_container">
+  <h1 class="specificFont"><%= Spree.t(:shopping_cart) %></h1>
+
+  <% if @order.line_items.empty? %>
+
+    <div data-hook="empty_cart">
+      <p><%= Spree.t(:your_cart_is_empty) %></p>
+      <p><%= link_to Spree.t(:continue_shopping), products_path, :class => 'button continue' %></p>
+    </div>
+
+  <% else %>
+
+    <div data-hook="outside_cart_form">
+      <%= form_for @order, :url => update_cart_path, :html => {:id => 'update-cart', :class => 'ui form'} do |order_form| %>
+        <div data-hook="inside_cart_form">
+
+          <div data-hook="cart_items">
+            <%= render :partial => 'form', :locals => { :order_form => order_form } %>
+          </div>
+
+          <div class="links coupon_and_update" data-hook="cart_buttons">
+            <div class="field">
+              <div class="two fields">
+                <div class="field">
+                  <%= order_form.text_field :coupon_code, :placeholder => Spree.t(:coupon_code) %>
+                </div>
+                <div class="field">
+                  <%= button_tag :class => 'ui button primary', :id => 'update-button' do %>
+                      <i class="refresh icon"></i>
+                      <%= Spree.t(:update) %>
+
+                  <% end %>
+                  <%= button_tag :class => 'ui button checkout green', :id => 'checkout-link', :name => 'checkout' do %>
+                      <i class="check icon"></i>
+                      <%= Spree.t(:checkout) %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      <% end %>
+    </div>
+
+    <div id="empty-cart" data-hook>
+      <%= form_tag empty_cart_path, :method => :put, :class => 'ui form' do %>
+        <p id="clear_cart_link" data-hook>
+          <div class="ui left icon input">
+            <%= submit_tag Spree.t(:empty_cart), :class => 'ui button orange' %>
+            <i class="remove circle icon"></i>
+          </div>
+        <%= Spree.t(:or) %>
+          <a class="continue ui icon button" href="<%= products_path %>">
+            <i class="long arrow right icon"></i>
+            <%= Spree.t(:continue_shopping) %>
+          </a>
+        </p>
+      <% end %>
+    </div>
+  <% end %>
+</div>

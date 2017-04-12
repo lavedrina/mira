@@ -1,0 +1,12 @@
+
+
+  <%= image_tag 'lilibag.png', :class => 'ui image inlineblock' %>
+  <div id="link-to-cart" class="inlineblock">
+
+  <noscript>
+    <%= link_to Spree.t(:cart), '/cart', :class => 'item' %>
+  </noscript>
+
+  <script>Spree.fetch_cart('<%= j spree.cart_link_url %>')</script>
+  </div>
+

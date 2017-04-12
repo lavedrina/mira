@@ -1,0 +1,190 @@
+@import "slick";
+@import "slick-theme";
+@import "semantic-ui";
+
+$milk_white: whitesmoke;
+$transparent_milk_white: rgba(245,245,245,0.8);
+$white_green: #effff3;
+$light_grey: #BBADAD;
+$light_brown: #403632;
+$very_dark_grey: #2A2929;
+$dark_grey: #303030;
+
+/* Separate fonts wth coma when needed */
+@font-face {
+  font-family: 'lilifont';
+  src: url('/assets/lilifont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.liliMenu{
+  font-family: 'lilifont' !important;
+  font-size: 1.7em !important;
+}
+
+.specificFont{
+  font-family: 'lilifont' !important;
+}
+
+.bigFont{
+  font-size: 1.2em;
+}
+
+.inlineblock{
+  display: inline-block !important;
+}
+
+#link-to-cart{
+    vertical-align: bottom;
+}
+
+body {
+  //background-color: $white_green !important;
+  background-image: url('/assets/background2.png') !important;
+  background-size: cover !important;
+}
+
+.carrouselImage{
+  margin-right: 15px;
+  //border: solid 1px grey;
+}
+
+.mainContainer{
+  margin-top: 1% !important;
+  padding-bottom: 1% !important;
+  min-height: 600px;
+  background-color: $milk_white;
+}
+
+#footer {
+  background-color: $transparent_milk_white;
+  padding-top: 1%;
+}
+
+.pagination{
+  margin-top: 25px !important;
+}
+.pagination > .first{
+  padding: 10px !important;
+}
+.pagination > .prev{
+  padding: 10px !important;
+}
+.pagination > .next{
+  padding: 10px !important;
+}
+.pagination > .page{
+  padding: 10px !important;
+}
+
+#main-image{
+  height: 450px;
+}
+
+.selected{
+  background-color: grey;
+}
+
+.normalBorder{
+  border: 1px solid $light_grey;
+}
+
+.normal_price{
+  font-size: 1.3em;
+  color: $light_brown;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#product-properties{
+  margin-top: 60px;
+}
+
+.listOfAdvantages{
+  padding-top: 25px;
+}
+
+.cardDimmerHeader{
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+
+}
+
+.cardDimmerText{
+  font-size: 0.95em;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lonelyDivider{
+  margin-top: 50px !important;
+  margin-bottom: 40px !important;
+}
+
+.veryLonelyDivider{
+  margin-top: 70px !important;
+  margin-bottom: 50px !important;
+}
+
+.lonelyDiscreteDivider{
+
+  margin-bottom: 30px !important;
+  text-align: center;
+  color: grey !important;
+}
+
+.justifiedText{
+  text-align: justify;
+}
+
+.bottomMargin{
+  margin-bottom: 20px !important;
+}
+
+.topMargin{
+  margin-top: 20px !important;
+}
+
+.discreteText{
+  color: $very_dark_grey;
+}
+.veryDiscreteText{
+  color: $dark_grey;
+}
+
+.centeredText{
+  text-align: center;
+}
+
+.coupon_and_update{
+  margin-top: 25px;
+}
+
+.custom_checkout_progress{
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+#payment-method-fields{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#credit-card-image{
+  margin-bottom: 20px;
+}
+
+.stickyDivider{
+  margin-top: 0.6rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.forcedBlack{
+  color: black !important;
+}
