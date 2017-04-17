@@ -30,11 +30,19 @@ $dark_grey: #303030;
   font-size: 1.3em !important;
 }
 
+.specificBigFont > div{
+  font-family: 'sunnyspringday' !important;
+  font-size: 1.5em !important;
+}
 .mainHeader{
   font-family: 'sunnyspringday' !important;
   font-size: 3em !important;
   text-align: center;
   color: darkcyan;
+}
+
+.oblique{
+  font-style: oblique;
 }
 
 .bigFont{

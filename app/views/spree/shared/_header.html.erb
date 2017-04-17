@@ -6,7 +6,7 @@
       <div class="two wide column">
         <%= image_tag 'mfinal.png', :class => 'ui centered small image mainLogo' %>
       </div>
-      <div class="ten wide column middle aligned">
+      <div class="eleven wide column middle aligned">
         <div class="ui massive secondary menu miraMenu">
           <a class="item specificFont" href="<%= spree.root_path %>">Accueil</a>
           <a class="item specificFont" href="<%= spree.home_story_path %>">Le Concept</a>
@@ -16,10 +16,10 @@
           <!--<a class="item" href="<%= spree.home_contact_path %>">Contact</a>-->
         </div>
       </div>
-      <div class="two wide column middle aligned">
+
+      <div class="three wide column middle aligned">
         <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
-      </div>
-      <div class="two wide column middle aligned">
+        <br>
         <%= render :partial => 'spree/shared/login_bar' %>
       </div>
     </div>
