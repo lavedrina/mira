@@ -12,21 +12,22 @@ $dark_grey: #303030;
 
 /* Separate fonts wth coma when needed */
 @font-face {
-  font-family: 'lilifont';
-  src: url('/assets/lilifont.ttf') format('truetype');
+  font-family: 'sunnyspringday';
+  src: url('/assets/sunnyspringday.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 
 
-.liliMenu{
-  font-family: 'lilifont' !important;
-  font-size: 1.7em !important;
+.miraMenu{
+  font-family: 'sunnyspringday' !important;
+  font-size: 2em !important;
 }
 
 .specificFont{
-  font-family: 'lilifont' !important;
+  font-family: 'sunnyspringday' !important;
+  font-size: 1.3em !important;
 }
 
 .bigFont{
@@ -38,7 +39,7 @@ $dark_grey: #303030;
 }
 
 #link-to-cart{
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 body {
