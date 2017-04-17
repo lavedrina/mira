@@ -3,6 +3,9 @@ module Spree
     def team
 
     end
+    def suppliers
+
+    end
     def story
 
     end

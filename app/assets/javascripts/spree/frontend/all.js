@@ -15,13 +15,30 @@
 
 
 function triggerSlideShow(){
-    $('.liliSlider').slick({
+    $('.miraSlider').slick({
+        infinite: true,
+        centerMode: true,
+        centerPadding: '10px',
+        slidesToShow: 5,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: false
+    });
+    $('.miraSecondSlider').slick({
+        infinite: true,
+        centerPadding: '10px',
+        slidesToShow: 6,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        dots: false
+    });
+    $('.miraThirdSlider').slick({
         infinite: true,
         centerMode: true,
         centerPadding: '10px',
         slidesToShow: 4,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         dots: true
     });
 }
