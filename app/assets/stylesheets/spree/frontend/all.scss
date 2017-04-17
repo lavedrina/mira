@@ -5,6 +5,7 @@
 $milk_white: whitesmoke;
 $transparent_milk_white: rgba(245,245,245,0.8);
 $white_green: #effff3;
+$background-color: rgba(124, 214, 197, 0.78);
 $light_grey: #BBADAD;
 $light_brown: #403632;
 $very_dark_grey: #2A2929;
@@ -73,7 +74,8 @@ body {
   margin-top: 1% !important;
   padding-bottom: 1% !important;
   min-height: 600px;
-  background-color: $milk_white;
+
+  background-color: $background-color;
 }
 
 #footer {
@@ -99,6 +101,7 @@ body {
 
 .mainLogo{
   margin-top: 20px !important;
+  width: 70px !important;
 }
 #main-image{
   height: 450px;
