@@ -10,11 +10,18 @@
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
     <div class="container">
       <%= render :partial => 'spree/shared/header' %>
+      <div class="ui grid">
+        <div class="five wide column"></div>
+        <div class="six wide column mainHeader">
+          Commerce responsable
+        </div>
+        <div class="four wide column"></div>
+      </div>
       <% is_welcome = ['home'].include?(controller_name) && ['index'].include?(action_name) %>
       <div id="wrapper" class="row" data-hook>
         <div id="content" class="columns mainContainer <%= !content_for?(:sidebar) ? "sixteen" : "twelve omega" %>" data-hook>
           <%- if flash[:success] || flash[:notice] || flash[:alert] || flash[:error] || flash[:info]%>
-          <div class="ui grid lala">
+          <div class="ui grid">
             <div class="five wide column"></div>
             <div class="six wide column">
               <%- if flash[:success] %>

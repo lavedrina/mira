@@ -30,6 +30,13 @@ $dark_grey: #303030;
   font-size: 1.3em !important;
 }
 
+.mainHeader{
+  font-family: 'sunnyspringday' !important;
+  font-size: 1.8em !important;
+  text-align: center;
+  color: darkcyan;
+}
+
 .bigFont{
   font-size: 1.2em;
 }
@@ -44,7 +51,7 @@ $dark_grey: #303030;
 
 body {
   //background-color: $white_green !important;
-  background-image: url('/assets/background2.png') !important;
+  background-image: url('/assets/backflowers.png') !important;
   background-size: cover !important;
 }
 
@@ -81,6 +88,9 @@ body {
   padding: 10px !important;
 }
 
+.mainLogo{
+  margin-top: 20px !important;
+}
 #main-image{
   height: 450px;
 }
