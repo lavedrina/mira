@@ -29,16 +29,16 @@ function triggerSlideShow(){
         centerPadding: '10px',
         slidesToShow: 6,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 500,
         dots: false
     });
     $('.miraThirdSlider').slick({
         infinite: true,
         centerMode: true,
         centerPadding: '10px',
-        slidesToShow: 4,
+        slidesToShow: 10,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 150,
         dots: false
     });
 }

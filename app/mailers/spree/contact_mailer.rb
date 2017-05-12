@@ -10,8 +10,8 @@ module Spree
 
       @contact = new_contact
       company = (' - '+@contact.company_name) || ' - '
-      subject = 'Contact'+company+@contact.email
-      mail(to: 'contact@ubris.io', from: @contact.email, subject: subject)
+      subject = 'Contact '+company+@contact.email
+      mail(to: 'contact@mymira.fr', from: @contact.email, subject: subject)
     end
 
 
