@@ -45,15 +45,18 @@ fr:
 
   Aujourd'hui, Christelle a réalisé ses rêves: Lili Ampela combine sa passion pour la nature, sa créativité et son besoin constant de donner aux femmes des outils pour sortir de la pauvreté. Elle souhaite remercier d'une manière extrêmement chaleureuse tous les acteurs qui l'ont aidée et soutenue jusque là dans cette aventure."
   concept_1: "Mira propose des produits de haute qualité et dont la fabrication ou la production a un impact social et environnemental positif.
-              Nous connaissons nos artisans, nos produdteurs d'huiles essentielles ou de spiruline. Nous nous déplaçons régulièrement dans leurs ateliers pour vérifier la qualité des produits et dénicher de nouveaux savoir-faire.
-              N'hésitez pas à nous contacter, à poser des questions sur la fabrication de nos produits, car nous avons encore beaucoup d'autres photos, vidéos, documents et informations à vous transmettre pour que vous puissiez exactement savoir d'où viennent les matières premières, qui fabrique et comment."
+              Nous connaissons nos artisans, nos produdteurs d'huiles essentielles ou de spiruline. Nous nous déplaçons régulièrement dans leurs ateliers pour vérifier la qualité des produits et dénicher de nouveaux savoir-faire."
   concept_2: "Nous travaillons avec des acteurs malgaches, car Madagascar est un pays très varié, avec une rencontre intéressante entre les nouveaux styles africains, les savoir-faire familiaux et l'environnement extrêmement riche de l'île.
               Les matières premières du pays sont souvent originellement biologiques de par la faible utilisation de pesticides et de cultures modifiées.
               C'est également un pays en pleine évolution, qui prend conscience des enjeux et des possibilités qu'il garde en son sein."
-  concept_3: "Nous sommes attachés à la transparence. Parlez nous, communiquez, soyez curieux, et nous vous répondrons sur un détail de fabrication, l'origine des matières premières, où rencontrer nos artisans, et tout ce qui vous passe par la tête !"
-  suppliers_respect_1: "Nous sélectionnons nos artisans par leur sérieux, la qualité de leurs produits, et leurs engagements concernant les cultures biologiques,
-  le versement de salaires réguliers à leurs ouvriers, l'exigence de produits finis soignés, faits à la main, et qui font honneur à la réputation malgache de qualité."
-  suppliers_respect_2: "Nous travaillons avec des femmes entrepreneures, des indépendants, des petits artisans. Nous visons une collaboration à taille humaine, où chacun de nos artisans compte."
+  concept_3: "Nous sommes attachés à la transparence. Nous savons dans quelles conditions sont récoltés, imaginés, fabriqués et terminés nos produits, et nous adorons en discuter !
+  Les vidéos dans la section 'Nos fournisseurs' vous montrent qui ils sont, et comment ils travaillent.
+  Ils ont chacun une importante expérience dans leur domaine et font vivre des ouvriers au travers de leur production.
+  Parlez nous, communiquez, soyez curieux, et nous vous répondrons sur un détail de fabrication, l'origine des matières premières, où rencontrer nos artisans, et tout ce qui vous passe par la tête !"
+  suppliers_respect_1: "Nous sélectionnons nos artisans par leur sérieux, la qualité de leurs produits, et leurs engagements concernant les cultures biologiques, l'exigence de produits finis soignés, faits à la main, et qui font honneur à la réputation malgache de qualité."
+  suppliers_respect_2: "Nous travaillons avec des femmes entrepreneures, des indépendants, des petits artisans. Nous visons une collaboration à taille humaine,
+  où chacun de nos artisans compte.
+  Une petite entreprise d'artisanat, c'est souvent un salaire régulier pour une dizaine de personnes, des enfants qui sont envoyés à l'école, et une émancipation progressive des populations."
   suppliers_respect_3: "Nous n'utilisons de machine à coudre que pour fixer nos doublures internes et les fermetures magnétiques."
   product_quality_1: "Demandez les certificats de nos huiles, les conditions de fabrication de nos objets d'art en corne de zébu, la fabrication des vêtements pour enfants, les détails sur la culture de la spiruline: ne soyez pas timides !."
   product_quality_2: "Tout est fait à la main, dans le respect des ouvriers, conformément aux règles de commerce équitable.
@@ -62,7 +65,7 @@ fr:
                 ​
 
                 Nous visitons les producteurs de matières premières, les ateliers, les lieux de production en étudiant les impacts et les savoir-faire, afin d'avoir une exigence constante sur la qualité de nos produits !
-                Vous n'êtes pas satisfaits pas cette qualité ? Contactez nous et nous serons ravis d'en discuter et de remplacer vos produits le cas échéant."
+                "
   contact_mail_introduction: "Un message vous a été adressé. Les coordonnées de l'emmetteur sont écrites ci-dessous: "
   contact_mail_phone_label: 'Téléphone: '
   contact_mail_email_label: 'Email: '
