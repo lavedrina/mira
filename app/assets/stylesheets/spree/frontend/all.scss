@@ -239,6 +239,8 @@ body {
 }
 .tallPictures{
   width: 110%;
+  overflow: hidden;
+  height: 700px;
 }
 
 .mainTitle{
@@ -247,7 +249,7 @@ body {
   font-size: 24em !important;
   text-align: center;
   color: #00c5ad;
-  opacity: 0.9;
+  opacity: 0.95;
   bottom: 16%;
   left: 35%;
   text-decoration-color: white;

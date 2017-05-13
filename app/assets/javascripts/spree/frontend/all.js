@@ -49,4 +49,30 @@ Spree.ready(function(){
         on: 'hover'
     });
 
+    // home page animation: change during a specific cycle the opacity of pictures
+    $('.thin_image').each(function(index) {
+        var that = this;
+        var random = Math.random();
+        
+        var t = setTimeout(function() {
+            // $(that).css('opacity',0);
+            $(that).fadeTo( "slow",0);
+            setTimeout(function(){
+                $(that).fadeTo( "slow",1);
+                //$(that).css('opacity',1);
+            },1500*(2*random));
+        }, 50 * index * (5*random));
+    });
+    // $('.thin_image').each(function(lala){
+    //     setTimeout(function(){
+    //         var image = lala;
+    //         setTimeout(function(){
+    //             image.css('opacity',0.4);
+    //             setTimeout(function(){
+    //                 image.css('opacity',1);
+    //             },1500);
+    //         },500);
+    // },500);
+    // });
+
 });
