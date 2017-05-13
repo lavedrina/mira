@@ -38,7 +38,7 @@ function triggerSlideShow(){
         centerPadding: '10px',
         slidesToShow: 10,
         autoplay: true,
-        autoplaySpeed: 150,
+        autoplaySpeed: 1000,
         dots: false
     });
 }
