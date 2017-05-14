@@ -1,22 +1,29 @@
-<%= render partial: 'spree/shared/error_messages', locals: { target: @user } %>
+<div class="ui stackable grid">
+  <div class="three wide column"></div>
+  <div class="ten wide column">
+    <%= render partial: 'spree/shared/error_messages', locals: { target: @user } %>
 
-<div id="edit-account">
-  <h1 class="specificFont"><%= Spree.t(:editing_user) %></h1>
+    <div id="edit-account">
+      <h1 class="specificFont"><%= Spree.t(:editing_user) %></h1>
 
-  <div data-hook="account_edit">
-    <div class="ui middle aligned center aligned grid">
+      <div data-hook="account_edit">
+        <div class="ui middle aligned center aligned grid">
 
-    <div class="ten wide column">
-      <%= form_for Spree::User.new, as: @user, url: spree.user_path(@user), html: { class: "ui large form" }, method: :put do |f| %>
-          <%= render partial: 'spree/shared/user_form', locals: { f: f } %>
-          <p>
-            <%= f.submit Spree.t(:update), class: 'ui fluid large teal submit button' %>
-          </p>
-      <% end %>
-    </div>
-    <div class="six wide column"></div>
+          <div class="ten wide column">
+            <%= form_for Spree::User.new, as: @user, url: spree.user_path(@user), html: { class: "ui large form" }, method: :put do |f| %>
+                <%= render partial: 'spree/shared/user_form', locals: { f: f } %>
+                <p>
+                  <%= f.submit Spree.t(:update), class: 'ui fluid large teal submit button' %>
+                </p>
+            <% end %>
+          </div>
+          <div class="six wide column"></div>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="three wide column"></div>
 </div>
+
 
 
