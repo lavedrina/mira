@@ -2,16 +2,18 @@
 
 
   <div class="ui center aligned container">
-    <div class="ui stackable column grid">
+    <div class="ui stackable grid">
       <div class="two wide column">
         <%= image_tag 'mfinal.png', :class => 'ui centered small image mainLogo' %>
       </div>
       <div class="eleven wide column middle aligned">
-        <div class="ui massive secondary menu miraMenu">
+        <div class="ui stackable secondary five item menu miraMenu">
           <a class="item specificFont" href="<%= spree.root_path %>">Accueil</a>
           <a class="item specificFont" href="<%= spree.home_story_path %>">Le Concept</a>
           <a class="item specificFont" href="<%= spree.home_suppliers_path %>">Nos Fournisseurs</a>
           <a class="item specificFont" href="<%= spree.products_path %>">Catalogue</a>
+          <a class="item specificFont" href="<%= spree.products_path %>">Vidéos</a>
+
 
           <!--<a class="item" href="<%= spree.home_contact_path %>">Contact</a>-->
         </div>
