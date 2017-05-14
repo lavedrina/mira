@@ -1,57 +1,65 @@
-<h3 class="ui horizontal divider header lonelyDivider">
+<h3 class="ui horizontal divider header slightlyLonelyDivider specificFont">
   Contact
 </h3>
 
-<%= image_tag 'beach_2.jpg', :class => 'ui image fluid' %>
+<%= image_tag 'contact_image.jpg', :class => 'ui image fluid' %>
 
 <div class="ui stackable grid">
   <div class="five wide column">
   </div>
-  <div class="six wide column">
-    <h3 class="ui horizontal divider header">
+  <div class="three wide column">
+    <h3 class="ui horizontal divider header slightlyLonelyDivider">
       <i class="call icon"></i>
     </h3>
     <div class="centeredText">
-      + 261 34 31 004 18 <br> +261 33 37 899 08
+      (+33)6 80 08 69 89
     </div>
-    <h3 class="ui horizontal divider header">
+  </div>
+  <div class="three wide column">
+    <h3 class="ui horizontal divider header slightlyLonelyDivider">
       <i class="mail outline icon"></i>
     </h3>
     <div class="centeredText">
-      For general enquiries: info.liliampela@gmail.com
+      contact@mymira.fr
     </div>
   </div>
   <div class="five wide column">
   </div>
 </div>
 
-<div class="ui divider lonelyDivider"></div>
+<div class="ui divider"></div>
 
 <h3 class="ui center aligned header">
-  <span class="discreteText">
+  <span class="discreteText specificFont">
     Nous Contacter
   </span>
 </h3>
+<div class="ui stackable grid">
+  <div class="three wide column"></div>
+  <div class="ten wide column">
+    <% @new_contact = Contact.new %>
+    <%= form_tag({controller: 'spree/home', action: 'send_contact_message'}, method: 'post', class: 'ui form') do %>
+        <div class="field">
+          <label><%= label_tag :company_name %></label>
+          <%= text_field(:contact, :company_name) %>
+        </div>
+        <div class="field">
+          <label><%= label_tag :email %></label>
+          <%= text_field(:contact, :email) %>
+        </div>
+        <div class="field">
+          <label><%= label_tag :phone %></label>
+          <%= text_field(:contact, :phone) %>
+        </div>
+        <div class="field">
+          <label><%= label_tag :message %></label>
+          <%= text_area(:contact, :message) %>
+        </div>
+        <%= submit_tag 'Envoyer', :class => 'ui fluid large teal submit button' %>
 
-<% @new_contact = Contact.new %>
-<%= form_tag({controller: 'spree/home', action: 'send_contact_message'}, method: 'post', class: 'ui form') do %>
-      <div class="field">
-        <label><%= label_tag :company_name %></label>
-        <%= text_field(:contact, :company_name) %>
-      </div>
-      <div class="field">
-        <label><%= label_tag :email %></label>
-        <%= text_field(:contact, :email) %>
-      </div>
-      <div class="field">
-        <label><%= label_tag :phone %></label>
-        <%= text_field(:contact, :phone) %>
-      </div>
-      <div class="field">
-        <label><%= label_tag :message %></label>
-        <%= text_area(:contact, :message) %>
-      </div>
-      <%= submit_tag 'Envoyer', :class => 'ui fluid large teal submit button' %>
+    <% end %>
+  </div>
+  <div class="three wide column"></div>
+</div>
 
-<% end %>
 
