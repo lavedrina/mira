@@ -12,18 +12,18 @@
 
       <%= render :partial => 'spree/shared/header' %>
 
-      <div class="ui grid">
-        <div class="five wide column"></div>
-        <div class="six wide column mainHeader">
-          <div>
-            Mira
-          </div>
-          <div>
+      <!--<div class="ui grid">-->
+        <!--<div class="five wide column"></div>-->
+        <!--<div class="six wide column mainHeader">-->
+          <!--&lt;!&ndash;<div>&ndash;&gt;-->
+            <!--&lt;!&ndash;Mira&ndash;&gt;-->
+          <!--&lt;!&ndash;</div>&ndash;&gt;-->
+          <!--<div>-->
 
-          </div>
-        </div>
-        <div class="four wide column"></div>
-      </div>
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="four wide column"></div>-->
+      <!--</div>-->
 
       <% is_welcome = ['home'].include?(controller_name) && ['index'].include?(action_name) %>
       <div id="wrapper" class="row" data-hook>
@@ -61,7 +61,7 @@
             <div class="four wide column"></div>
           </div>
           <%- end %>
-          <%= flash_messages %>
+          <% #flash_messages %>
           <div class="ui grid">
             <%- unless is_welcome %>
               <div class="one wide column"></div>
