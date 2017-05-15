@@ -1,29 +1,30 @@
 
 default: &default
-    adapter: postgresql
-    pool: 5
-    timeout: 5000
-    encoding: utf8
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  encoding: utf8
 
 development:
   <<: *default
-  database: liliampela_dev
+  database: mira_dev
   host: localhost
-  username: lili
-  password: lili
+  username: mira
+  password: mira
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: liliampela_test
+  database: mira_test
   host: localhost
-  username: lili
-  password: lili
+  username: mira
+  password: mira
 
 production:
-  database: liliampela_production
+  <<: *default
+  database: mira_prod
   host: localhost
-  username: lili_prod
-  password: lili
+  username: mira_prod
+  password: mira

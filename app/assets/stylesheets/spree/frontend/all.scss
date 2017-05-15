@@ -70,8 +70,8 @@ $mira_teal: darkcyan;
 
 body {
   //background-color: $white_green !important;
-  background-image: url('/assets/bg12_12.jpg') !important;
-  background-size: cover !important;
+  //background-image: url('/assets/bg12_12.jpg') !important;
+  //background-size: cover !important;
   //background: -webkit-linear-gradie3t(90deg, rgb(213, 248, 236), rgb(179, 242, 209));
   //background: linear-gradient(90deg, rgb(213, 248, 236), rgb(179, 242, 209));
 }
@@ -85,7 +85,8 @@ body {
   margin-top: 1% !important;
   padding-bottom: 1% !important;
   min-height: 600px;
-  background: linear-gradient(90deg, rgba(3, 98, 134, 0.18), rgba(83, 230, 189, 0.18));
+  background: linear-gradient(90deg, rgba(181, 181, 181, 0.18), rgba(249, 245, 194, 0.18));
+  //background: linear-gradient(90deg, rgba(3, 98, 134, 0.18), rgba(83, 230, 189, 0.18));
   //background: linear-gradient(90deg, rgba(8, 172, 234, 0.26), rgba(76, 193, 166, 0.29));
   //background: linear-gradient(90deg, rgba(67, 208, 186, 0.31), rgba(76, 193, 166, 0.29));
   //background-color: $background-color;
