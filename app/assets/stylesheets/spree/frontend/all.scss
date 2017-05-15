@@ -13,39 +13,76 @@ $dark_grey: #303030;
 $mira_teal: darkcyan;
 
 /* Separate fonts wth coma when needed */
+//@font-face {
+//  font-family: 'sunnyspringday';
+//  src: url('/assets/sunnyspringday.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+
 @font-face {
-  font-family: 'sunnyspringday';
-  src: url('/assets/sunnyspringday.ttf') format('truetype');
+  font-family: 'fish';
+  src: url('/assets/FISH&CHIPS-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'amperzand';
+  src: url('/assets/Amperzand.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'calculus';
+  src: url('/assets/CalculusSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sorryNotSorry';
+  src: url('/assets/KGSorryNotSorry.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'innuendo';
+  src: url('/assets/DK Innuendo.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-
+.miraSectionTitle{
+  font-family: 'fish' !important;
+  font-size: 1.7em !important;
+  //color: $mira_teal;
+  text-align: center;
+  margin-top: 25px;
+}
 
 .miraMenu{
-  font-family: 'sunnyspringday' !important;
+  font-family: 'fish' !important;
   font-size: 1.3em !important;
 }
 
 .specificFont{
-  font-family: 'sunnyspringday' !important;
+  font-family: 'fish' !important;
   font-size: 1.4em !important;
   font-weight: 100;
 }
 
 .specificMidFont{
-  font-family: 'sunnyspringday' !important;
+  font-family: 'fish' !important;
   font-size: 2em !important;
   font-weight: 100;
 }
 
 .specificBigFont{
-  font-family: 'sunnyspringday' !important;
+  font-family: 'fish' !important;
   font-size: 4em !important;
   font-weight: 100;
 }
 .mainHeader{
-  font-family: 'sunnyspringday' !important;
+  font-family: 'fish' !important;
   font-size: 3em !important;
   text-align: center;
   //color: darkcyan;
@@ -231,13 +268,7 @@ body {
   color: black !important;
 }
 
-.miraSectionTitle{
-  font-family: 'sunnyspringday' !important;
-  font-size: 1.7em !important;
-  //color: $mira_teal;
-  text-align: center;
-  margin-top: 25px;
-}
+
 
 .arrow_thin{
   margin-left: 45% !important;
